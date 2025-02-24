@@ -1,0 +1,17 @@
+# Ignorar archivos binarios y de compilación
+*.exe
+*.dll
+*.o
+*.log
+
+# Ignorar dependencias
+node_modules/
+vendor/
+
+# Ignorar configuraciones del entorno
+.env
+# Ignorar entornos virtuales de Python
+.venv*/
+**/.venv/
+# Ignorar configuraciones de JetBrains (PyCharm, WebStorm, etc.)
+.idea/
